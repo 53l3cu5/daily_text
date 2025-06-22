@@ -1,0 +1,16 @@
+{
+    "title": "Daily Text",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configurer Daily Text",
+                "description": "Sélectionnez votre langue et le nombre de mois à télécharger.",
+                "data": {
+                    "language": "Langue",
+                    "months": "Nombre de mois"
+                }       
+            }
+        },
+        "error": {}
+    }
+}
