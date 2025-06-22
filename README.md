@@ -28,6 +28,24 @@ Before installing this integration, please make sure you have the following prer
 
 Make sure both HACS and AppDaemon are properly installed and configured before using this project.
 
+- ### 🧩 Making Daily Text visible in HACS
+
+  To make sure the **Daily Text** AppDaemon app appears in your HACS dashboard and can be easily installed, you need to enable AppDaemon apps discovery in HACS settings.
+
+  If you don’t see this app listed in HACS:
+
+  1. Open Home Assistant and go to **Settings > Devices & Services**.
+  2. Select **HACS** from the list.
+  3. Click **Configure**.
+  4. Find and enable the option **Enable AppDaemon apps discovery & tracking**.
+  5. Save the settings.
+
+  After that, the Daily Text app will be visible in HACS, making installation and updates straightforward.
+
+  For more information, see the official HACS documentation:  
+  [Making AppDaemon Apps Visible in HACS](https://www.hacs.xyz/docs/use/repositories/type/appdaemon/#making-appdaemon-apps-visible-in-hacs)
+
+
 ## 📜 License
 
 This project is licensed under the **Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
