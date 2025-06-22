@@ -1,0 +1,29 @@
+{
+    "title": "Daily Text",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configure Daily Text",
+                "description": "Choose the language, the number of months, and the reading style.",
+                "data": {
+                    "language": "Language",
+                    "months": "Months to download",
+                    "read_verses": "Verses in parentheses are spoken for vocal reading"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Configure Daily Text",
+                "description": "Choose the language, the number of months, and the reading style.",
+                "data": {
+                    "language": "Language",
+                    "months": "Months to download",
+                    "read_verses": "Verses in parentheses are spoken for vocal reading"
+                }
+            }
+        }
+    }
+}
