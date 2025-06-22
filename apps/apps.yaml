@@ -1,0 +1,11 @@
+#apps.yaml
+---
+daily_text_fetch:
+  module: daily_text.fetch_month
+  class: FetchDailyText
+daily_text_lovelace:
+  module: daily_text.expose
+  class: ExposeDailyTextLovelace
+daily_text_tts:
+  module: daily_text.expose
+  class: ExposeDailyTextTTS
