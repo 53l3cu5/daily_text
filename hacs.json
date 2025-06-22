@@ -1,0 +1,8 @@
+{
+  "name": "Daily Text",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "country": "FR",
+  "homeassistant": "2024.12.0",
+  "render_readme": true
+}
