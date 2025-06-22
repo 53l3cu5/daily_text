@@ -1,8 +1,10 @@
 {
   "name": "Daily Text",
   "content_in_root": false,
-  "domains": ["sensor"],
+  "domains": ["appdaemon", "integration"]
   "country": "FR",
   "homeassistant": "2024.12.0",
-  "render_readme": true
+  "render_readme": true,
+  "zip_release": false,
+  "icon": "images/icon.png"
 }
