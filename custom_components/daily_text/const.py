@@ -1,0 +1,10 @@
+# const.py
+DOMAIN = "daily_text"
+
+CONF_LANGUAGE = "language"
+CONF_MONTHS = "months"
+CONF_STRIP_PARENTHESES = "read_verses"
+
+DEFAULT_LANGUAGE = "en"
+DEFAULT_MONTHS = 1
+DEFAULT_STRIP_PARENTHESES = True
