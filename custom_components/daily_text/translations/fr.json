@@ -1,0 +1,29 @@
+{
+    "title": "Texte du jour",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configurer le texte du jour",
+                "description": "Choisissez la langue, le nombre de mois et le style de lecture.",
+                "data": {
+                    "language": "Langue",
+                    "months": "Nombre de mois à télécharger",
+                    "read_verses": "Les versets entre parenthèses sont prononcé pour la lecture vocale"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Options du Texte du jour",
+                "description": "Choisissez la langue, le nombre de mois et le style de lecture.",
+                "data": {
+                    "language": "Langue",
+                    "months": "Nombre de mois à télécharger",
+                    "read_verses": "Les versets entre parenthèses sont prononcé pour la lecture vocale"
+                }
+            }
+        }
+    }
+}
