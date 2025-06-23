@@ -16,5 +16,5 @@
   "is_built_in": false,
   "keywords": ["jw.org", "daily", "bible", "text", "voice", "tts"],
   "translations": "translations",
-  "homeassistant": "2024.12.0"
+  "homeassistant": "2024.10.0"
 }
