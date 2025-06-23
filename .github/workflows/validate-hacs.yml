@@ -4,17 +4,28 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: "0 3 * * *"  # Exécution quotidienne à 3h UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
-  validate-hacs:
+  validate-appdaemon:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run HACS validation
+      - name: Validate AppDaemon
         uses: hacs/action@main
         with:
-          category: "appdaemon,integration"
+          category: "appdaemon"
+
+  validate-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate Integration
+        uses: hacs/action@main
+        with:
+          category: "integration"
