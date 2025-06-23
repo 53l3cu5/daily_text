@@ -1,3 +1,4 @@
+![Validate HACS](https://github.com/53l3cu5/daily_text/actions/workflows/validate-hacs.yml/badge.svg)
 # Daily text
 Automatically displays and reads the daily Bible text from jw.org in Home Assistant, with multilingual support and offline access.
 
@@ -56,3 +57,4 @@ This means you are free to copy, modify, and redistribute it, provided that you:
 - **distribute your contributions under the same license**.
 
 ⚠️ Any commercial use is prohibited without explicit permission.
+
