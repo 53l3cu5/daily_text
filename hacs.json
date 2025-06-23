@@ -1,7 +1,7 @@
 {
   "name": "Daily Text",
   "content_in_root": false,
-  "domains": ["appdaemon", "integration"],
+  "domains": ["appdaemon"],
   "homeassistant": "2024.12.0",
   "render_readme": true,
   "zip_release": true,
