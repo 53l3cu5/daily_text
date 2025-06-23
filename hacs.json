@@ -2,10 +2,8 @@
   "name": "Daily Text",
   "content_in_root": false,
   "domains": ["appdaemon", "integration"],
-  "country": "FR",
   "homeassistant": "2024.12.0",
   "render_readme": true,
   "zip_release": true,
-  "icon": "images/icon.png",
   "require_restart": true
 }
