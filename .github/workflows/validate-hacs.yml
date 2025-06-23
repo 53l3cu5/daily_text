@@ -1,0 +1,20 @@
+name: Validate HACS repository
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 3 * * *"  # Exécution quotidienne à 3h UTC
+  workflow_dispatch:
+
+jobs:
+  validate-hacs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run HACS validation
+        uses: hacs/action@main
+        with:
+          category: "appdaemon,integration"
