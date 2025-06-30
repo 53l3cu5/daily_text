@@ -1,3 +1,13 @@
+[![Static Badge](https://img.shields.io/badge/HACS-Custom-41BDF5?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=white)](https://github.com/hacs/integration) 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/53l3cu5/daily_text/total?style=for-the-badge)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/53l3cu5/daily_text?style=for-the-badge) 
+
+
+
+![GitHub Release Date](https://img.shields.io/github/release-date-pre/53l3cu5/daily_text?style=for-the-badge&label=Latest%20Beta%20Release) [![GitHub Release](https://img.shields.io/github/v/release/53l3cu5/daily_text?include_prereleases&style=for-the-badge)](https://github.com/53l3cu5/daily_text/releases)
+
+<!--![GitHub Release Date](https://img.shields.io/github/release-date/53l3cu5/daily_text?style=for-the-badge&label=Latest%20Release) [![GitHub Release](https://img.shields.io/github/v/release/53l3cu5/daily_text?style=for-the-badge)](https://github.com/53l3cu5/daily_text/releases)-->
+
 ![Validate HACS](https://github.com/53l3cu5/daily_text/actions/workflows/validate-hacs.yml/badge.svg)
 # Daily text
 Automatically displays and reads the daily Bible text from jw.org in Home Assistant, with multilingual support and offline access.
